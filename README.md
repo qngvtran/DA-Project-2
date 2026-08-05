@@ -64,13 +64,39 @@ Business questions:
 ## Workflow
 
 ### 1. Data cleaning (Python / Pandas, in Google Colab)
+- Loads the raw 10,000-row CSV (already free of nulls/duplicates)
+- Hashes the customer surname and drops the raw name column
+- Renames columns, converts flag columns to proper booleans
+- Checks and flags the `complained`/`churned` leakage pattern
+- Engineers `credit_score_band`, `age_band`, `balance_tier`,
+  `tenure_band`, `engagement_score`
+- Builds a small `credit_score_bands` reference table
 
 ### 2. SQL analysis (PostgreSQL)
 
+- churn rate by country/age/products/credit band
+- an active-member comparison
+- a "VIP customers per country" window-function query
+- a running-total churn count across credit risk bands.
+
 ### 3. Excel dashboard
+
+Customers sheet:
+- all 10,000 customers as an Excel Table
+Credit Score Bands sheet:
+- the reference table
+Dashboard sheet:
+- KPI cards - Total Customers, Churned, Churn Rate, Avg Satisfaction, Avg Credit Score
+- 4 `COUNTIFS`- driven churn-rat breakdown tables
+- matching charts
 
 ### 4. Power BI dashboard
 
 ---
 
 ## Key findings
+
+- Overall churn rate: 20.4% (2,038 of 10,000 customers)
+- Germany's churn rate (32.4%) is roughly double France's and
+  Spain's (~16-17% each) - the single biggest geographic signal in the
+  data, and worth a dedicated slide in any retention story
