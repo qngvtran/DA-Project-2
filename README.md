@@ -36,7 +36,7 @@ Business questions:
 | **Python (Pandas)** — Google Colab | Clean the data, handle PII responsibly, detect a target-leakage issue, engineer retention-analysis features |
 | **PostgreSQL (SQL)** | Structured storage + 12 queries including joins to a reference table and window functions |
 | **Excel** | Formula-driven churn-rate dashboard using two-condition `COUNTIFS` ratios |
-| **Power BI** | Interactive report across 4 pages, with an explicit reminder about leakage-safe measures |
+| **Power BI** | - |
 | **GitHub** | Documentation and version control (this repo) |
 
 ---
