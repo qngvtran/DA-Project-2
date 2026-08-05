@@ -1,0 +1,6 @@
+band,min_score,max_score,description
+Poor,300,578,"High credit risk, limited product eligibility"
+Fair,579,668,Below-average risk profile
+Good,669,738,"Acceptable, mainstream risk profile"
+Very Good,739,798,"Low risk, eligible for premium products"
+Exceptional,799,850,"Lowest risk, top-tier customer"
