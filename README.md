@@ -43,6 +43,26 @@ Business questions:
 
 ## Project structure
 
+```
+.
+├── data/
+│   ├── raw/                        # original, unmodified source data
+│   │   └── add
+│   └── processed/                  # cleaned output for SQL/Excel/Power BI
+│
+├── excel/
+│   └── add      # KPI dashboard, formulas + charts
+│
+├── images/                     # screenshots
+│
+├── notebooks/
+│   └── add           # Google Colab notebook
+│ 
+├── sql/
+│   └── add         # 12 business-style questions 
+│ 
+└── README.md
+```
 ---
 
 ## Workflow
