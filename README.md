@@ -59,7 +59,7 @@ Business questions:
 │   └── add           # Google Colab notebook
 │ 
 ├── sql/
-│   └── add         # 12 business-style questions 
+│   └── SQL_bank_churn.sql         # business-style questions 
 │ 
 └── README.md
 ```
